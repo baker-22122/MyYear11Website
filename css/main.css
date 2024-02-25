@@ -1,0 +1,70 @@
+
+@import url('https:fonts.googleapis.com/css?family=McLaren|Quicksand|Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Quicksand' ,sans-serif;
+    margin: 0; /* remove all body margins*/
+    font-size: 120%;
+}
+header {
+    display: flex;
+    align-items: center;
+    background: #0cbe9b;
+}
+header h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 400%;
+    font-weight: lighter;
+    color: black;
+}
+nav {
+   background-color: #0a85d8;
+   border-top: solid black 1px;
+   border-bottom: solid black 1px;
+   display: flex; /*Display the children of this element as flexible boxes*/
+}
+nav p {
+    text-align: center;
+    flex-basis: 100px; /*Give each paragraph the same basic width*/
+    flex-grow: 1; /* allow each paragraph to grow evenly to fill up the parent bav element*/
+    align-items: center; /* align child flexible boxes in the vertical center*/
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: red;
+}
+footer {
+    background-color: #0a85d8; /* background or background color both worl*/
+    position: fixed; /* fix the vew port*/
+    bottom: 0; /* start 0 pixels from the bottom of the view port*/
+    left: 0; /* start 0 pixels from the left of the view port*/
+    width: 100%;/* set the width to 100% of the viewport*/
+    height: 3em; /* set the footer elements height to 3 times larger than its current font size*/
+    border-top: solid black 1px; /* have to put unit, e.g px or % if not zero*/
+
+
+
+}
+h1,h2 {
+    font-family: 'McLaren', cursive;
+    color:#f75c03;
+}
+.center {
+text-align: center;
+}
+.main {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em; /* larger margin to allow for the footer*/
+}
+.wrap {
+float: right;
+}
+ .caption {
+    font-style: italic;
+    font-size: small;
+ }
